@@ -7,12 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Code Instagram Clone
+          Code Instagram Clone .
         </p>
         <a
           className="App-link"
           href="https://appmasters.io/"
           target="_blank"
+          rel="noreferrer"
         >
           App Masters
         </a>
@@ -20,6 +21,7 @@ function App() {
             className="App-link"
             href="https://codejr.com.br/"
             target="_blank"
+            rel="noreferrer"
         >
           Code Júnior
         </a>
