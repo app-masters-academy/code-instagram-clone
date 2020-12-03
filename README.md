@@ -4,6 +4,8 @@ Projeto de estudo do treinamento "React para humanos" sendo oferecido pela [App 
 
 O backend do projeto está em [josueodh/backend-treinamento-node](https://github.com/josueodh/backend-treinamento-node).
 
+Acesse aqui a [apresentação](https://docs.google.com/presentation/d/1T5lvg562a8b4UQXYyeBbwvsR-MpMjF8zbx2D1IBKq1w/edit?usp=sharing) do treinamento.
+
 # Como executar
 
 Para executar o projeto em sua máquina local:
