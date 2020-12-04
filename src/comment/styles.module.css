@@ -1,0 +1,23 @@
+.comment {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.button {
+  color: #0095F6;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+}
+
+.button.disable {
+ opacity: 0.7;
+}

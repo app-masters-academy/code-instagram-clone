@@ -1,0 +1,33 @@
+.post {
+  max-width: 700px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(219, 219, 219);
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 8px 16px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 16px;
+  border-top: 1px solid rgba(219, 219, 219);
+}
