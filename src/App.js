@@ -1,7 +1,7 @@
 import logo from './logo.png';
 import './App.css';
-import Footer from "./Footer";
-import PostList from "./PostList";
+import Footer from "./footer";
+import PostList from "./postList";
 
 const posts = [
     {
