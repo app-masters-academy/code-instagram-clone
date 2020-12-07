@@ -1,5 +1,5 @@
-import Post from '../post';
-import styles from './styles.module.css';
+import Post from "../post";
+import styles from "./styles.module.css";
 
 const PostList = (props) => {
   return (
@@ -7,9 +7,13 @@ const PostList = (props) => {
       <div className={styles.list}>
         {props.posts.map((post) => (
           <Post
-            userName={post.userName}
-            imageUrl={post.imageUrl}
-            imageDescription={post.imageDescription}
+            key={post.id}
+            userName={"Josué"}
+            imageUrl={
+              "https://codejr.com.br/wp-content/uploads/2020/09/quem-somos.jpg"
+            }
+            imageTitle={post.title}
+            imageDescription={post.description}
           />
         ))}
       </div>
