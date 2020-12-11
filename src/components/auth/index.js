@@ -5,7 +5,7 @@ class AuthView extends React.Component {
     super();
 
     this.state = {
-      name: "Senhor ",
+      name: "",
       email: "",
       password: "",
     };

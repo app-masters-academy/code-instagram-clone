@@ -8,10 +8,9 @@ const PostList = (props) => {
         {props.posts.map((post) => (
           <Post
             key={post.id}
-            userName={"Josué"}
-            imageUrl={
-              "https://codejr.com.br/wp-content/uploads/2020/09/quem-somos.jpg"
-            }
+            userName={post.user.name}
+            userImageUrl={post.user.avatar}
+            imageUrl={post.imageUrl}
             imageTitle={post.title}
             imageDescription={post.description}
           />
