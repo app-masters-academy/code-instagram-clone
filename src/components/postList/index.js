@@ -5,15 +5,8 @@ const PostList = (props) => {
   return (
     <main className={styles.wrapper}>
       <div className={styles.list}>
-        {props.posts.map((post) => (
-          <Post
-            key={post.id}
-            userName={post.user.name}
-            userImageUrl={post.user.avatar}
-            imageUrl={post.imageUrl}
-            imageTitle={post.title}
-            imageDescription={post.description}
-          />
+        {props.posts.map((item) => (
+          <Post key={item.id} post={item}  />
         ))}
       </div>
     </main>
