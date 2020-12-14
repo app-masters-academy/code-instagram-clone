@@ -23,7 +23,7 @@ class AuthView extends React.Component {
       <div
         style={{ display: "flex", flexDirection: "column", padding: "20px" }}
       >
-        <h1>Entre para ver o conteúdo</h1>
+        <h1>Code Instagram Clone</h1>
         <p>Bem vindo, {this.state.name}</p>
         <input
           placeholder="Nome"
